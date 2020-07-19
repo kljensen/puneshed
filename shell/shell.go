@@ -7,8 +7,8 @@ import (
 var execCommand = exec.Command
 
 // Run - echo a command
-func Run(s string) ([]byte, error) {
-	cmd := execCommand("echo", s)
+func Run(command string, args ...string) ([]byte, error) {
+	cmd := execCommand(command, args...)
 	out, err := cmd.CombinedOutput()
 	return out, err
 }
