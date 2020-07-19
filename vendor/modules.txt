@@ -1,5 +1,13 @@
-# github.com/fsnotify/fsnotify v1.4.7
+# github.com/fsnotify/fsnotify v1.4.9
+## explicit
 github.com/fsnotify/fsnotify
+# github.com/google/go-cmp v0.3.0
+## explicit
+github.com/google/go-cmp/cmp
+github.com/google/go-cmp/cmp/internal/diff
+github.com/google/go-cmp/cmp/internal/flags
+github.com/google/go-cmp/cmp/internal/function
+github.com/google/go-cmp/cmp/internal/value
 # github.com/hashicorp/hcl v1.0.0
 github.com/hashicorp/hcl
 github.com/hashicorp/hcl/hcl/ast
@@ -18,34 +26,44 @@ github.com/magiconair/properties
 # github.com/mitchellh/go-homedir v1.1.0
 ## explicit
 github.com/mitchellh/go-homedir
-# github.com/mitchellh/mapstructure v1.1.2
+# github.com/mitchellh/mapstructure v1.3.2
+## explicit
 github.com/mitchellh/mapstructure
-# github.com/pelletier/go-toml v1.2.0
+# github.com/pelletier/go-toml v1.8.0
+## explicit
 github.com/pelletier/go-toml
-# github.com/spf13/afero v1.1.2
+# github.com/spf13/afero v1.3.2
+## explicit
 github.com/spf13/afero
 github.com/spf13/afero/mem
-# github.com/spf13/cast v1.3.0
+# github.com/spf13/cast v1.3.1
+## explicit
 github.com/spf13/cast
 # github.com/spf13/cobra v1.0.0
 ## explicit
 github.com/spf13/cobra
-# github.com/spf13/jwalterweatherman v1.0.0
+# github.com/spf13/jwalterweatherman v1.1.0
+## explicit
 github.com/spf13/jwalterweatherman
-# github.com/spf13/pflag v1.0.3
+# github.com/spf13/pflag v1.0.5
+## explicit
 github.com/spf13/pflag
 # github.com/spf13/viper v1.7.0
 ## explicit
 github.com/spf13/viper
 # github.com/subosito/gotenv v1.2.0
 github.com/subosito/gotenv
-# golang.org/x/sys v0.0.0-20190624142023-c5567b49c5d0
+# golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae
+## explicit
+golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
-# golang.org/x/text v0.3.2
+# golang.org/x/text v0.3.3
+## explicit
 golang.org/x/text/transform
 golang.org/x/text/unicode/norm
-# gopkg.in/ini.v1 v1.51.0
+# gopkg.in/ini.v1 v1.57.0
+## explicit
 gopkg.in/ini.v1
-# gopkg.in/yaml.v2 v2.2.4
+# gopkg.in/yaml.v2 v2.3.0
 ## explicit
 gopkg.in/yaml.v2
